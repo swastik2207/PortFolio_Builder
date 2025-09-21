@@ -19,7 +19,7 @@ const CertificationPage: React.FC<CertificationPageProps> = ({ portfolio }) => {
       if (window.innerWidth >= 768) return 2  // md and up (desktop)
       return 1 // sm and below (mobile)
     }
-    return 2 // Default for SSR
+    return 2 // Default for SSR 
   }
 
   const groupCertificates = (certs: any[], itemsPerSlide: number) => {

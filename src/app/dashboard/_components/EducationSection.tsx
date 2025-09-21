@@ -61,7 +61,7 @@ function EducationSection({ portfolio, onUpdate }: EducationSectionProps) {
     'Bachelor of Science (B.S.)',
     'Bachelor of Arts (B.A.)',
     'Bachelor of Engineering (B.E.)',
-    'Bachelor of Technology (B.Tech)',
+    'Bachelor of Technology (B.Tech)', 
     'Master of Science (M.S.)',
     'Master of Arts (M.A.)',
     'Master of Engineering (M.E.)',
@@ -313,7 +313,7 @@ function EducationSection({ portfolio, onUpdate }: EducationSectionProps) {
                   <ul className="text-blue-700 mt-1 space-y-1">
                     <li>• List education in reverse chronological order (most recent first)</li>
                     <li>• Include degrees, certifications, and relevant coursework</li>
-                    <li>• Add your GPA or grade if it's impressive (3.5+ recommended)</li>
+                    <li>• Add your GPA or grade if it's impressive (8+ recommended)</li>
                     <li>• Include ongoing education or current studies</li>
                   </ul>
                 </div>
@@ -527,7 +527,7 @@ function EducationSection({ portfolio, onUpdate }: EducationSectionProps) {
                       {isEditing && (
                         <div className="flex items-center text-sm text-gray-500">
                           <BookOpen className="w-4 h-4 mr-2" />
-                          Only include if impressive (3.5+ GPA recommended)
+                          Only include if impressive (7.5+ GPA recommended)
                         </div>
                       )}
                     </div>
